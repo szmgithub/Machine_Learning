@@ -271,7 +271,7 @@ if __name__ == '__main__':
     # =========== 第一部分 ===============
     # 加载训练数据
     print ( "Loading and Visualizing Data..." )
-    data = sio.loadmat('HW1602data.mat')
+    data = sio.loadmat('data.mat')
     X, y = data['X'], data['y']
 
     m = X.shape[0]
@@ -290,7 +290,7 @@ if __name__ == '__main__':
     # Load the weights into variables Theta1 and Theta2
     # Theta1 has size 25 x 401
     # Theta2 has size 10 x 26
-    data = sio.loadmat('HW1602weights.mat')
+    data = sio.loadmat('weights.mat')
     Theta1, Theta2 = data['Theta1'], data['Theta2']
 
     # print Theta1.shape, (hidden_layer_size, input_layer_size + 1)
