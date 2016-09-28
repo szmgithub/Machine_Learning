@@ -1,0 +1,3 @@
+文件包含两个主程序：
+linear_regression.py使用data.txt完成线性回归的训练;
+ridge_regression.py使用train_data.txt完成岭回归的训练，因为数据是自己生成的，没有对特征做归一化，如果是使用其他数据，应该加上（所有特征都减去各自的均值，并除以方差/标准差）。
